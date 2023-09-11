@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shlok Shrestha Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!------------------------------- navbar-section ------------------------->
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <a href="#">Shlok Shrestha</a>
+        </div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <li><a href="#homepage">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------- HomePage-section ------------------------->
+    <div class="h-full lg:px-40 lg:py-24 px-6 py-24 bg-gray-100" id="homepage">
+      <div
+        class="flex items-center justify-center lg:flex-row flex-col-reverse"
+      >
+        <div class="lg:w-[30rem] md:w-[30rem] sm:w-[25rem] relative">
+          <div class="mt-4 text-center lg:text-left">
+            <h1
+              class="lg:text-5xl md:text-5xl sm:text-4xl text-3xl lg:leading-tight lg:text-left font-bold text-gray-800"
+            >
+              Front-End React Developer
+            </h1>
+
+            <p class="my-4 text-xl">
+              Hi, I'm Shlok Shrestha. A passionate Front-end React Developer
+              based in Kathmandu, Nepal.
+            </p>
+            <div class="icons text-3xl mb-5">
+              <a href="https://github.com/ShlokShrestha" target="#">
+                <i class="fa-brands fa-github text-gray-800 mr-1"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/shlok-shrestha-922554256/"
+                target="#"
+              >
+                <i class="fa-brands fa-linkedin text-gray-800 mr-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="lg:pl-8 lg:w-[30rem] md:w-[25rem] sm:w-[20rem] w-[16rem]">
+          <img src="/img/me.png" alt="abc" />
+        </div>
+      </div>
+    </div>
+    <!------------------------------- About-section ------------------------->
+    <div class="lg:py-20 lg:px-24 py-10 h-full px-4" id="about">
+      <div class="flex justify-center items-center h-full">
+        <div class="max-w-[75rem] flex flex-col lg:flex-row">
+          <div class="lg:w-[30rem] md:w-[30rem] w-full">
+            <img src="/img/aboutme.png" alt="abc" />
+          </div>
+          <div
+            class="lg:w-[35rem] md:w-[30rem] lg:ml-5 w-full px-4 mt-5 lg:text-left text-center"
+          >
+            <h4 class="mb-2 text-2xl font-bold">ABOUT ME</h4>
+            <h3 class="mb-3 text-xl font-bold text-gray-800">
+              A dedicated Front-End Developer based in Kathmandu, Nepal
+            </h3>
+            <p class="text-justify">
+              As a Junior Front-End Developer, I possess an impressive arsenal
+              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.
+              With the expertise of a passionate, motivated and committed
+              software developer, empower your personal or professional goals. I
+              am dedicated to assisting people and organizations in realizing
+              their maximum potential. I have a wealth of expertise and a
+              successful track record in problem-solving.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------- Project-section ------------------------->
+    <div class="lg:py-20 lg:px-24 py-10 px-4 bg-gray-100" id="project">
+      <div class="project-detail">
+        <div class="title mb-7">
+          <h4 class="mb-2 text-2xl font-bold lg:text-left text-center">
+            PORTFOLIO
+          </h4>
+          <h3 class="lg:text-left text-center">
+            I deliver top-notch projects using modern technologies and maintain
+            a focus on efficient and clean code.
+          </h3>
+        </div>
+
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-col-1 gap-6 mx-auto"
+        >
+          <div class="shadow-lg rounded-lg p-4 bg-white" key="{item.id}">
+            <div class="project-show-details">
+              <div class="left-side overflow-hidden">
+                <img
+                  src="/img/aboutme.png"
+                  alt="aa"
+                  class="hover:scale-110 transition duration-300 ease-in-out"
+                />
+              </div>
+              <div class="right-side">
+                <h3 class="text-2xl font-semibold mt-5 mb-3 text-center">
+                  EasyPeek-Shop
+                </h3>
+                <p class="text-justify">
+                  EasyPeek-Shop is a basic shopping website made with Context
+                  API using useReducer. It includes features such as a product
+                  list page, a cart page, the ability to add or remove items
+                  from the cart, price summation, and display of total cart
+                  quantity and total amount.
+                </p>
+                <div class="flex justify-center items-center py-5">
+                  <a
+                    target="_blank"
+                    href="https://github.com/ShlokShrestha/EasyPeek-Shop"
+                    rel="noreferrer"
+                    class="text-gray-800 text-md font-medium pr-5"
+                  >
+                    Code <i class="fa-brands fa-github text-xl"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://easy-peek-shop.vercel.app/"
+                    rel="noreferrer"
+                    class="text-gray-800 text-md font-medium pr-5"
+                  >
+                    Live Demo
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square link-icon ps-2 text-xl"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------- Contact-section ------------------------->
+    <div
+      class="lg:py-20 lg:px-24 py-16 px-10 lg:text-left md:text-left text-center"
+      id="contact"
+    >
+      <div class="mb-5">
+        <h4 class="mb-1 text-2xl font-bold">CONTACT</h4>
+        <h3>Don't be shy! Hit me up! 👇</h3>
+      </div>
+      <div class="flex lg:flex-row md:flex-row flex-col gap-6 mt-7">
+        <div class="flex lg:flex-row md:flex-row flex-col items-center gap-6">
+          <span class="bg-white rounded-full md:p-6 p-4 shadow-lg">
+            <i class="fa-solid fa-map-location-dot text-blue-600 text-3xl"></i>
+          </span>
+          <div class="contact-info">
+            <h3>Location</h3>
+            <p>Kathmandu, Nepal</p>
+          </div>
+        </div>
+        <div class="flex lg:flex-row md:flex-row flex-col items-center gap-6">
+          <span class="bg-white rounded-full md:p-6 p-4 shadow-lg">
+            <i
+              class="fa-solid fa-envelope-open-text text-blue-600 text-3xl"
+            ></i>
+          </span>
+          <div class="contact-info">
+            <h3>Mail</h3>
+            <a href="mailto:shlokstha99@gmail.com">shlokstha99@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
